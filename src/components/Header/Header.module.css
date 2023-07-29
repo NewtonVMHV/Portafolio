@@ -1,0 +1,40 @@
+.header {
+    background: hsla(0, 0%, 100%, 0.5);
+    backdrop-filter: saturate(180%) blur(10px);
+    padding: 1rem 0;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+  .logo {
+    font-family: poppins;
+    font-weight: 700;
+    font-size: 1.5rem;
+    color: hsla(220, 23%, 5%, 1);
+  }
+  
+  .theme {
+    color: hsla(220, 23%, 5%, 1);
+    font-size: 1.5rem;
+    background: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .theme:active {
+    transform: scale(0.96);
+  }

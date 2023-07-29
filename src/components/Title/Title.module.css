@@ -1,0 +1,16 @@
+.title {
+    font: 700 2rem "poppins";
+    color:  hsla(220, 23%, 5%, 1);
+}
+  
+.highlight {
+    position: relative;
+    color: hsla(222, 88%, 55%, 1);
+    /* style neon */
+    background-image: linear-gradient(
+        hsl(212, 100%, 48%) 25%,
+        hsl(187, 99%, 46%) 100%
+    );
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

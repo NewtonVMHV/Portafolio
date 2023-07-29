@@ -1,0 +1,20 @@
+.nav {
+    display: none;
+  }
+  
+  .menu {
+    display: flex;
+    gap: 2.5rem;
+  }
+  
+  .link {
+    font: 700 1.125rem "wotfard";
+    color: hsla(220, 23%, 5%, 1);
+    letter-spacing: 0.5px;
+  }
+  
+  @media (min-width: 920px) {
+    .nav {
+      display: block;
+    }
+  }

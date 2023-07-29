@@ -1,0 +1,26 @@
+.projects {
+    padding: 5.375rem 0;
+    background: var(--projectsBackground);
+  }
+  
+  .content {
+  }
+  
+  .information {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  
+  .description {
+    font: var(--description-mobile);
+    color: var(--tertiary);
+  }
+  
+  @media (min-width: 768px) {
+    .description {
+      font: var(--description-desktop);
+    }
+  }
