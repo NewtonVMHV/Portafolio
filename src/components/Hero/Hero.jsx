@@ -17,7 +17,7 @@ const Hero = () => {
                         }}></img>
                 </div>
                 <div className={style.information}>
-                    <p className={style.name}>Víctor Manuel Hernández Vargas Vargas</p>
+                    <p className={style.name}>Víctor Manuel Hernández Vargas</p>
                     <h1 className={style.title}>
                         <strong className={style.highlightBlue}>Software</strong>{" "}
                         Engineer
