@@ -36,7 +36,7 @@ export default function Educacion() {
                         <div className="carousel-item" data-bs-interval="2000">
                         <img src={oxford} class="d-block w-100" alt="..." style={{ width: 300,height: 600 }}/>
                         <div className="card carousel-caption d-none d-md-block">
-                            <h5>Univerdad de Oxford</h5>
+                            <h5>Universidad de Oxford</h5>
                             <p>2017 -2018</p>
                             <p>Diplomado en Física Matematica</p>
                         </div>
