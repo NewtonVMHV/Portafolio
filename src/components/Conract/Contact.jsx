@@ -3,7 +3,7 @@ import style from "./Contact.module.css";
 import Title from '../Title/Title';
 import Wrapper from '../Wrapper/Wrapper';
 import Socials from '../Socials/Socials';
-import perfil from '../../resources/perfil.jpg';
+import profil from '../../resources/profil.jpg';
 
 const Contact = () => {
   return (
@@ -23,7 +23,7 @@ const Contact = () => {
                     </p>
                 </div>
                 <div className={style.stack}>
-                    <img src={perfil}  style={{
+                    <img src={profil}  style={{
                         width: 300,
                         height: 300,
                         borderRadius:'50%',
