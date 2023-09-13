@@ -34,7 +34,7 @@ const Tecnologies = () => {
     ];
     const hiddenTech = (name) => {
         // return false;
-        return ["Vue","Java","Python"].includes(name);
+        return ["Docker","Mongo","Vue","Java","Python"].includes(name);
     };
   return (
     <div className={style.technologies}>
